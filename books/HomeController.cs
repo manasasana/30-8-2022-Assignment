@@ -21,7 +21,7 @@ namespace books
                     books = Computerbooks();
                     break;
                 default:
-                    books = "no such subject found";
+                    books = "invalid";
                     break;
             }
             return books;
@@ -29,17 +29,17 @@ namespace books
 
         public string Historybooks()
         {
-            return $"History 1 \nHistory 2 \nHistory 3";
+            return $"History1 \nHistory2 \nHistory3";
         }
 
         public string Mathsbooks()
         {
-            return $"Maths 1 \nMaths 2 \nMaths 3";
+            return $"Maths1 \nMaths2 \nMaths3";
         }
 
         public string Computerbooks()
         {
-            return $"Computer 1 \nComputer 2 \nComputer 3";
+            return $"Computer1 \nComputer2 \nComputer3";
         }
     }
 }
